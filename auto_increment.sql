@@ -1,0 +1,10 @@
+create database company;
+create table employee(id int(10) not null primary key auto_increment, name varchar(25), age int(20));
+insert into employee(name,age) values('Vinodini',	25);
+insert into employee(name,age) values('Banu',    	27);
+insert into employee(name,age) values('kaushik', 	23);
+insert into employee(name,age) values('Praveen', 	25);
+insert into employee(name,age) values('Kamal',   	22);
+insert into employee(name,age) values('Malini',  	24);
+insert into employee(name,age) values('Ramesh',  	32);
+select *from employee;
